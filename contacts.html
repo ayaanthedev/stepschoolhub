@@ -26,11 +26,11 @@
       content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
     />
 
-    <!-- This site is optimized with the Yoast SEO plugin v20.5 - https://yoast.com/wordpress/plugins/seo/ -->
+   
     <meta
       name="description"
       content="STEP Schools offer 21st century learning on par with international trends in education."
-   
+   />
     <meta
       property="og:title"
       content="STEP Schools 21st Century Learning - Step Schools"
@@ -86,7 +86,6 @@
         <h1>Contact Us</h1>
         <p>Have questions or suggestions? We'd love to hear from you!</p>
 
-        <!-- Added id to the form -->
         <form id="contact-form" class="contact-form" method="POST">
           <div class="form-group">
             <label for="name">Name</label>
@@ -111,7 +110,6 @@
           <button type="submit" class="submit-btn">Send Message</button>
         </form>
 
-        <!-- Contact info -->
         <div class="contact-info">
           <div class="contact-method">
             <h3>Email</h3>
@@ -147,7 +145,6 @@
         navLinks.classList.toggle("active");
       });
 
-      // Form submission handler
       document
         .getElementById("contact-form")
         .addEventListener("submit", function (event) {
@@ -164,7 +161,6 @@
           );
         });
 
-      // Fix for 405 error
       emailjs.init("mDG1HNIAVI3xy50CM");
     </script>
   </body>
