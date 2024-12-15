@@ -16,4 +16,4 @@ Allow: /js/
 Allow: /images/
 
 # Specify sitemap for efficient crawling
-Sitemap: https://yourdomain.com/sitemap.xml
+Sitemap: https://stepschoolhub.pages.dev/sitemap.xml
