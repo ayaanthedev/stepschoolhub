@@ -1,0 +1,19 @@
+# Robots.txt for SEO Optimization
+# Allow all search engines to crawl the main website
+User-agent: *
+Disallow: /private/         # Block sensitive/private directories
+Disallow: /admin/           # Block admin or backend areas
+Disallow: /drafts/          # Block draft or unpublished content
+Disallow: /test/            # Block test pages or environments
+Disallow: /temp/            # Block temporary files or directories
+Disallow: /cgi-bin/         # Default for cgi-bin folders (if present)
+Disallow: /*?*              # Block URLs with query parameters to avoid duplicate content
+
+# Allow crawling of critical files for rendering
+Allow: /assets/
+Allow: /css/
+Allow: /js/
+Allow: /images/
+
+# Specify sitemap for efficient crawling
+Sitemap: https://yourdomain.com/sitemap.xml
