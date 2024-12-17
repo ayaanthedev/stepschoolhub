@@ -1,4 +1,3 @@
-# Robots.txt for SEO Optimization
 # Allow all search engines to crawl the main website
 User-agent: *
 Disallow: /private/         # Block sensitive/private directories
@@ -9,11 +8,15 @@ Disallow: /temp/            # Block temporary files or directories
 Disallow: /cgi-bin/         # Default for cgi-bin folders (if present)
 Disallow: /*?*              # Block URLs with query parameters to avoid duplicate content
 
-# Allow crawling of critical files for rendering
+# Allow critical resources, including favicon
+Allow: /steo-favicon.svg
 Allow: /assets/
 Allow: /css/
 Allow: /js/
 Allow: /images/
+Allow: /svg/
+Allow: /step-favicon.png
+
 
 # Specify sitemap for efficient crawling
 Sitemap: https://stepschoolhub.pages.dev/sitemap.xml
