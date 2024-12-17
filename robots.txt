@@ -9,7 +9,7 @@ Disallow: /cgi-bin/         # Default for cgi-bin folders (if present)
 Disallow: /*?*              # Block URLs with query parameters to avoid duplicate content
 
 # Allow critical resources, including favicon
-Allow: /steo-favicon.svg
+Allow: /step-favicon.svg
 Allow: /assets/
 Allow: /css/
 Allow: /js/
