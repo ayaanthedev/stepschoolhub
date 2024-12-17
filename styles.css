@@ -425,4 +425,34 @@ nav {
   .contact-card {
     padding: 1.5rem;
   }
+  @media screen and (max-width: 768px) {
+    nav {
+        padding: 1rem;
+    }
+
+    .nav-links {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: #111;
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .categories {
+        grid-template-columns: 1fr;
+        margin-top: 60px;
+        padding: 1rem;
+    }
+}
 }
