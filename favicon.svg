@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+   <!-- Background -->
+   <rect width="48" height="48" rx="12" fill="#2563eb"/>
+   
+   <!-- Cube design -->
+   <!-- Front face -->
+   <path d="M12 18
+            L24 12
+            L36 18
+            L24 24
+            Z"
+          fill="white"/>
+   
+   <!-- Right face -->
+   <path d="M24 24
+            L36 18
+            L36 30
+            L24 36
+            Z"
+          fill="#dcdefc"/>
+   
+   <!-- Left face -->
+   <path d="M12 18
+            L24 24
+            L24 36
+            L12 30
+            Z"
+          fill="#b5bbf8"/>
+</svg>
